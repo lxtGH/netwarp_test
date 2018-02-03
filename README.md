@@ -185,6 +185,3 @@ If you use the dense inverse search based optical flow, please do not forget cit
 }
 ```
 =======
-# netwarp_test
-Semantic Video CNNs through Representation Warping. ICCV 2017
->>>>>>> 9c4482a6901b0029a7ad7f68bba8f459c66add20

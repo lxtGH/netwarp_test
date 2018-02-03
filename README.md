@@ -30,7 +30,7 @@ There are mainly two ways for integrating the additional layers provided by our 
 * Dowloading a fresh clone of Caffe and patching it with our source files, so that you will be able to test the code with minimal effort.
 * Patching an existing copy of Caffe, so that you can integrate our code with your own development on Caffe.
 
-### Downloading and Patching
+### Downloading and Patching (This repo contains the caffe src code, you don't need patch it)
 
 This can be done just by the following commands:
 ```
@@ -43,7 +43,7 @@ cmake ..
 This will configure the project, you may then run:
 
 * for building the project (note: you should not do "make -j4" like this because it has some dependcies with optical flow library(OF_DIS) )
-  ```
+  ```
   make 
   ```
   This will clone a Caffe version from the main Caffe repository into the `build` folder and compiles together with our newly added layers.

@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Semantic Video CNNs through Representation Warping
 
 This is the code accompanying the following **ICCV 2017** publication:
@@ -42,7 +42,7 @@ cmake ..
 
 This will configure the project, you may then run:
 
-* for building the project
+* for building the project (note: you should not do "make -j4" like this because it has some dependcies with optical flow library(OF_DIS) )
   ```
   make 
   ```

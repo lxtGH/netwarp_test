@@ -5,7 +5,11 @@ This is the code accompanying the following **ICCV 2017** publication:
 
 --------
 
+
 **Semantic Video CNNs through Representation Warping**.
+
+实验结果：
+ 感觉这个模型本身就是PSP net，　它提出了用光流去warp后一帧的feature,可是当你把它给的模型参数打印出来看时却发现warp模块学到的参数为０（发邮件也没不回复）,这样整个模型的结果就是PSP net.也没有训练脚本，不知道作者怎么做到他的实验效果的，至少他给的模型测试效果还差了一些。
 
 --------
 
